@@ -1,4 +1,4 @@
-# অ্যান্টেনা
+# BiggaponBiroti
 
 A single-page listening room for Bangladeshi jingles. The YouTube player
 is mapped onto the television in the background photograph.
@@ -53,18 +53,5 @@ A genuinely audio-only version means licensed audio files served from
 your own `<audio>` tag, which for jingles means clearing rights with
 the brands or agencies that own them.
 
-## Live listener count
 
-Uses Supabase Realtime presence — a live roster of connected clients,
-no database table and no cleanup job.
-
-1. Create a free project at supabase.com
-2. Settings → API, copy the Project URL and the `anon` public key
-3. Paste both into `src/config.js`
-
-The anon key is designed to be exposed in client code, so it's safe to
-commit. With the fields blank the counter simply doesn't render.
-
-Free tier covers 200 concurrent connections, which is plenty until the
-site takes off.
 # biggaponbiroti
