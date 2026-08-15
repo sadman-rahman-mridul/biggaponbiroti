@@ -2,8 +2,8 @@
 
 export const PLAYLIST_ID = 'PLdZKZfqjP3_U'
 
-export const SITE_NAME = 'বিজ্ঞাপন বিরতি'
-export const TAGLINE   = 'বাংলাদেশি জিঙ্গল, লুপে'
+export const SITE_NAME = 'বিজ্ঞাপন বিরতি | Bangladeshi Jingle'
+export const TAGLINE   = 'বাংলাদেশি Jingle, on loop!'
 
 /* The wordmark is already burnt into the screen in the background
    photograph, so the masthead doesn't repeat it. */
